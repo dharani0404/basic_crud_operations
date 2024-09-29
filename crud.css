@@ -1,0 +1,35 @@
+body{
+    font-family: sans-serif;
+    margin: 10% 5%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20%;
+}
+.posts{
+    display: flex;
+    flex-direction: column;
+    gap: 35%;
+
+}
+
+.innerpost{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.options{
+    display: flex;
+    gap: 10px;
+}
+
+.material-symbols-outlined{
+    cursor: pointer;
+}
+#msg{
+    color: red;
+}
